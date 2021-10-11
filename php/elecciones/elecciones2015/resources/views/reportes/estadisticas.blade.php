@@ -1,0 +1,189 @@
+<?php namespace App\Http\Controllers;
+
+use Illuminate\Routing\Controller;
+use DB;
+use Session;
+use Form;
+use App\Http\Controllers\FuncionesControllers;
+
+?>
+@include('layaout.header_admin')
+
+{!! Form::open(array('url' => 'generar_reporte_estadistica', 'method' => 'post', 'class' =>  "form-horizontal")) !!}
+<input type="hidden" name="id_estado" value="<?php echo $estado; ?>" />
+<input type="hidden" name="id_municipio" value="<?php echo $municipio; ?>" />
+<input type="hidden" name="id_parroquia" value="<?php echo $parroquia; ?>" />
+<input type="hidden" name="reportes" value="<?php echo $reporte; ?>" />
+<legend>Estad&iacute;sticas</legend>
+<br />
+
+<br />
+
+<?php
+
+$sql = "select * from encuesta where nroreporte>0 order by nroreporte";
+$data=DB::select($sql);
+foreach ($data as $data)
+    $titulos_reportes[] = $data->descripcion;
+?>
+<div class="form-group">
+    <label class="control-label col-xs-3">Estado:</label>
+    <div class="col-xs-3">
+        <select name="estado" id="estado" onchange="ver_municipio_jquery(this.form);" class="form-control">
+            <option value=0>Todos los Estado...</option>
+            <?php
+            $sql = "select * from estado order by nombre";
+            $data=DB::select($sql);
+            foreach ($data as $data) {
+            if (($estado>0) && ($estado==$data->id_estado)) {
+            ?>
+            <option value="<?php echo $data->id_estado; ?>" selected><?php echo $data->nombre; ?></option>
+            <?php
+            } else {
+            ?>
+            <option value="<?php echo $data->id_estado; ?>"><?php echo $data->nombre; ?></option>
+            <?php
+            }
+            }
+            ?>
+        </select>
+    </div>
+
+    <div class="col-xs-3">
+				<span id="ver_municipio"></span>
+    </div>
+    <div class="col-xs-3">
+        <span id="ver_parroquia">
+            <select name="parroquia" class="form-control" id="parroquia">Seleccione Parroquia...</select>
+        </span>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3">Reporte:</label>
+        <div class="checkbox">
+            <?php
+            $array_reporte = explode(",", $reporte);
+            foreach ($titulos_reportes as $key => $value) {
+                $rep=($key+1);
+                echo '<label><input type="checkbox" name="reporte'.$rep.'" value="1"';
+                if (in_array($rep,$array_reporte))
+                    echo " checked";
+                echo ">".$rep."</label>&nbsp;&nbsp;&nbsp;&nbsp;";
+            }
+            ?>
+        </div>
+    </label>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3">Circuito del Centro de Votacion:</label>
+    <div class="col-xs-3">
+        <select name="circuito" class="form-control">
+            <?php
+            $sql = "select distinct(circuito) as circuito from centro order by 1";
+            $data=DB::select($sql);
+            echo "<option value=0>Todos</option>";
+            foreach ($data as $data) {
+                if ($data->circuito==$circuito)
+                    echo "<option value=".$data->circuito." selected>".$data->circuito."</option>";
+                else
+                    echo "<option value=".$data->circuito.">".$data->circuito."</option>";
+            }
+
+            ?>
+        </select>
+    </div>
+</div>
+
+<br />
+
+<div align="center">
+    <input class="btn btn-primary" type="submit" value="Generar Reporte" name="R1" /><br />
+    <ol>
+        <li><a class="ver_mas" href="javascript:;" onclick="ver_excel_estadistica('exportar_estadisticas_excel/<?php echo SessionusuarioControllers::show("id_eleccion"); ?>')">Exportar a Excel Reportes Estadisticos</a></li>
+        <li><a class="ver_mas" href="javascript:;" onclick="ver_excel_estadistica('exportar_estadisticas_centros_procesados/<?php echo SessionusuarioControllers::show("id_eleccion"); ?>')">Exportar a Excel Centros Procesadeor</a></li>
+    </ol>
+    <?php
+    $path = "excel";
+    $dir = opendir($path);
+    $reporte_estadisticas=0;
+    while ($elemento = readdir($dir)) {
+        if (strpos($elemento,"reporte_estadisticas") !== false)
+            echo '<a class="ver_mas_resaltado" href="excel/'.$elemento.'">'.$elemento.'</a><br />';
+        elseif (strpos($elemento,"reporte_estadisticas_cetros_procesados") !== false)
+            echo '<a class="ver_mas_resaltado" href="excel/'.$elemento.'">'.$elemento.'</a><br />';
+    }
+    closedir($dir);
+    ?>
+</div>
+<br />
+<table id="example" class="display" cellspacing="0" width="55%">
+    <thead>
+        <tr>
+            <th>Reporte</th>
+            <th>Pregunta</th>
+            <th>Cantidad NO</th>
+            <th>Cantidad SI</th>
+        </tr>
+    </thead>
+    <tbody>
+    <?php
+    $sql = "SELECT count(eo.respuesta) as cantidad, eo.respuesta, ";
+    $sql .= "e.id_encuesta as nroreporte, p.id_pregunta, p.pregunta ";
+    $sql .= "FROM encuesta_observador eo, pregunta p, encuesta e, centro c ";
+    $sql .= "where eo.id_pregunta=p.id_pregunta and p.id_encuesta=e.id_encuesta and ";
+    if ($estado>0)
+        $sql .= "c.estado=$estado and ";
+    if ($municipio>0)
+        $sql .= "c.municipio=$municipio and ";
+    if ($parroquia>0)
+        $sql .= "c.parroquia=$parroquia and ";
+    if ($reporte!='0')
+        $sql .= "e.id_encuesta in ($reporte) and ";
+    if ($circuito>0)
+        $sql .= "c.circuito=$circuito and ";
+    $sql .= "c.id_centro=eo.id_centro ";
+    $sql .= "group by eo.id_pregunta, eo.respuesta ";
+    $sql .= "order by p.id_pregunta, eo.respuesta, e.id_encuesta";
+    //echo $sql;
+    $data=DB::select($sql);
+    $i=1;
+    $preg=0;
+    foreach ($data as $data) {
+        if ($i==1) $i=2;
+        else $i=1;
+        echo "<tr>";
+        if ($preg==0 || $preg!=$data->id_pregunta) {
+            $j=1;
+            ?>
+                <td align="center">Reporte: <?php echo $data->nroreporte; ?></td>
+                <td><?php echo $data->pregunta; ?></td>
+            <?php }
+                if ($data->respuesta==1) { ?>
+                    <td align="center"><?php echo $data->cantidad; ?></td>
+            <?php }
+                elseif ($data->respuesta==0) {
+                    if ($j==1) {
+                        echo '<td align="center">0</td>';
+                    }
+            ?>
+                <td align="center"><?php echo $data->cantidad; ?></td>
+            <?php } ?>
+            </tr>
+        <?php
+        $j++;
+        $preg=$data->id_pregunta;
+    }
+    echo "</tbody></table><br />";
+    ?>
+    <script>
+        var f = eval("document.forms[0]");
+        f.id_estado.value=<?php echo $estado; ?>;
+        f.id_municipio.value=<?php if ($municipio=="") $municipio=0; echo $municipio; ?>;
+        f.id_parroquia.value=<?php if ($parroquia=="") $parroquia=0;  echo $parroquia; ?>;
+        ver_municipio_jquery(f);
+        ver_parroquia_jquery(f);
+    </script>
+{!! Form::close() !!}
+@include('layaout.footer_admin')

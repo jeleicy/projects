@@ -1,0 +1,18 @@
+justhost nueva clave
+
+PASS: T5vL7@QpdXN
+PHRASE:Calool b!eakly antipot 95
+PIN:091010
+BILLING PASSWORD:nvidiaGTX780.
+
+
+-------------------
+
+Wordpress (WP)
+
+BD: materia3_redobsbd
+User BD: materia3_roadmin
+Pass BD:!~M3b@#d.d@b
+
+User WP: redobservadmin
+Pass WP: eB152h0Y*Fo!9FS1C8
