@@ -1,0 +1,536 @@
+[16-Nov-2016 18:58:58 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:00:00 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:00:09 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:00:50 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:00:57 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:01:19 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:01:34 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:01:50 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:02:05 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:02:05 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:02:05 UTC] PHP Fatal error:  Class 'EncuestasControllers' not found in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:02:13 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:02:14 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:03:25 UTC] PHP Warning:  The use statement with non-compound name 'PDF' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 5
+[16-Nov-2016 19:03:25 UTC] PHP Fatal error:  Class 'EncuestasControllers' not found in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:06:56 UTC] PHP Fatal error:  Class 'FuncionesControllers' not found in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 389
+[16-Nov-2016 19:07:16 UTC] PHP Fatal error:  Class 'App\Http\Controllers\EncuestasControllers' not found in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:07:43 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:08:05 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:08:33 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:10:52 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:10:52 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 544
+[16-Nov-2016 19:23:02 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:23:28 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:24:11 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:26:54 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:27:22 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:27:27 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:28:40 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:28:56 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:31:29 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:31:54 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:33:03 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 19:36:16 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[16-Nov-2016 20:05:17 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[18-Nov-2016 18:02:08 UTC] PHP Deprecated:  Non-static method App\Http\Controllers\EncuestaControllers::generar_pdf_hi() should not be called statically, assuming $this from incompatible context in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 774
+[21-Nov-2016 19:53:08 UTC] PHP Fatal error:  Call to undefined method App\Http\Controllers\FuncionesControllers::buscar_evaluaciones() in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/2de6901ec593b98994d979abd21f7e48 on line 106
+[23-Nov-2016 20:07:57 UTC] PHP Fatal error:  Call to undefined method App\Http\Controllers\FuncionesControllers::buscar_prueba() in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/cc211609acad0914d01d895329367b11 on line 48
+[24-Nov-2016 13:34:07 UTC] PHP Fatal error:  Class 'App\Http\Controllers\correo_autorizacion' not found in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/PruebasControllers.php on line 242
+[28-Nov-2016 18:42:31 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/93dba7cee3543e33fc8a418ca99b1222 on line 17
+[28-Nov-2016 18:42:53 UTC] PHP Parse error:  syntax error, unexpected '||' (T_BOOLEAN_OR) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/93dba7cee3543e33fc8a418ca99b1222 on line 17
+[28-Nov-2016 18:43:28 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/93dba7cee3543e33fc8a418ca99b1222 on line 17
+[28-Nov-2016 18:43:55 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/93dba7cee3543e33fc8a418ca99b1222 on line 17
+[12-Dec-2016 22:18:11 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Form' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/b9610d2a05821742aff41fdbae719cd7 on line 11
+[12-Dec-2016 22:18:27 UTC] PHP Fatal error:  Class 'App\Http\Controllers\URL' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/b9610d2a05821742aff41fdbae719cd7 on line 186
+[12-Dec-2016 22:21:09 UTC] PHP Fatal error:  Class 'App\Http\Controllers\App' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/b9610d2a05821742aff41fdbae719cd7 on line 7
+[12-Dec-2016 22:30:10 UTC] PHP Fatal error:  Class 'App\Http\Controllers\App' not found in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 608
+[12-Dec-2016 22:30:30 UTC] PHP Fatal error:  Class 'App\Http\Controllers\App' not found in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 608
+[12-Dec-2016 22:32:07 UTC] PHP Fatal error:  Class 'App\Http\Controllers\URL' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/b9610d2a05821742aff41fdbae719cd7 on line 186
+[12-Dec-2016 22:32:54 UTC] PHP Fatal error:  Class 'App\Http\Controllers\URL' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/b9610d2a05821742aff41fdbae719cd7 on line 186
+[12-Dec-2016 22:51:10 UTC] PHP Fatal error:  Class 'App\Http\Controllers\App' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/b9610d2a05821742aff41fdbae719cd7 on line 8
+[14-Dec-2016 14:07:55 UTC] PHP Parse error:  syntax error, unexpected '$data_correo' (T_VARIABLE) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 360
+[14-Dec-2016 14:08:51 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/4f6733a743c3d4bcbfa33051204e1520 on line 52
+[14-Dec-2016 14:13:52 UTC] PHP Fatal error:  Class 'App\Http\Controllers\App' not found in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/FuncionesControllers.php on line 642
+[15-Dec-2016 16:41:09 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/FuncionesControllers.php on line 290
+[16-Dec-2016 11:23:43 UTC] PHP Parse error:  syntax error, unexpected ''parrafo2'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/talentsk/iol.talentskey.net/encuestas/resources/lang/en/iol_test.php on line 45
+[18-Dec-2016 17:27:32 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/75bb27ae5d39ac6aea70ac14c83be243 on line 80
+[18-Dec-2016 17:27:53 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/75bb27ae5d39ac6aea70ac14c83be243 on line 80
+[18-Dec-2016 17:28:37 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/75bb27ae5d39ac6aea70ac14c83be243 on line 81
+[18-Dec-2016 17:29:10 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/75bb27ae5d39ac6aea70ac14c83be243 on line 81
+[18-Dec-2016 18:03:13 UTC] PHP Fatal error:  Undefined class constant 'getLocale' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/4debd2672eefe3a2ba8428788dbafb2a on line 109
+[18-Dec-2016 18:25:09 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/talentsk/iol.talentskey.net/encuestas/resources/lang/en/iol_test.php on line 20
+[18-Dec-2016 18:25:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/talentsk/iol.talentskey.net/encuestas/resources/lang/en/iol_test.php on line 20
+[18-Dec-2016 18:27:23 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/talentsk/iol.talentskey.net/encuestas/resources/lang/en/iol_test.php on line 20
+[18-Dec-2016 18:28:25 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/talentsk/iol.talentskey.net/encuestas/resources/lang/en/iol_test.php on line 20
+[18-Dec-2016 18:28:56 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/talentsk/iol.talentskey.net/encuestas/resources/lang/en/iol_test.php on line 20
+[18-Dec-2016 18:29:24 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/talentsk/iol.talentskey.net/encuestas/resources/lang/en/iol_test.php on line 20
+[18-Dec-2016 18:29:51 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/talentsk/iol.talentskey.net/encuestas/resources/lang/en/iol_test.php on line 20
+[18-Dec-2016 18:34:16 UTC] PHP Fatal error:  Class 'FuncionesControllers' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/9c04f828aae181d8a7b135b74cff66aa on line 51
+[18-Dec-2016 18:35:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/9c04f828aae181d8a7b135b74cff66aa on line 47
+[18-Dec-2016 21:01:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 722
+[29-Dec-2016 15:14:50 UTC] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/49c25af42b81330b3eab2a7dd2cbbcde on line 222
+[29-Dec-2016 15:17:09 UTC] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/49c25af42b81330b3eab2a7dd2cbbcde on line 222
+[29-Dec-2016 15:19:42 UTC] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/49c25af42b81330b3eab2a7dd2cbbcde on line 222
+[29-Dec-2016 15:31:10 UTC] PHP Fatal error:  Call to undefined method Illuminate\Foundation\Application::getLocate() in /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 213
+[30-Dec-2016 14:50:29 UTC] PHP Parse error:  syntax error, unexpected '$resultado' (T_VARIABLE) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/FuncionesControllers.php on line 733
+[30-Dec-2016 14:53:37 UTC] PHP Parse error:  syntax error, unexpected '$resultado' (T_VARIABLE) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/FuncionesControllers.php on line 750
+[30-Dec-2016 19:12:07 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 459
+[30-Dec-2016 19:12:43 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 459
+[30-Dec-2016 19:12:46 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 459
+[30-Dec-2016 20:01:59 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 473
+[11-Jan-2017 19:46:41 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 729
+[11-Jan-2017 19:47:08 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 729
+[11-Jan-2017 19:47:33 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 745
+[11-Jan-2017 19:47:56 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 1431
+[11-Jan-2017 19:49:36 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/inline_positioner.cls.php on line 41
+[11-Jan-2017 19:51:13 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/font_metrics.cls.php on line 161
+[11-Jan-2017 19:52:36 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame.cls.php on line 322
+[11-Jan-2017 19:52:43 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 725
+[11-Jan-2017 20:25:16 UTC] PHP Parse error:  syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 816
+[25-Jan-2017 18:11:19 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/b9c2940f234b2d116e3799b47e62428e on line 305
+[03-Feb-2017 15:07:06 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/page_frame_decorator.cls.php on line 172
+[04-Feb-2017 16:01:03 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/b9c2940f234b2d116e3799b47e62428e on line 294
+[07-Feb-2017 17:31:30 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame_decorator.cls.php on line 431
+[07-Feb-2017 17:31:47 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame.cls.php on line 629
+[13-Feb-2017 15:48:18 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame.cls.php on line 367
+[13-Feb-2017 17:05:28 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/text_frame_reflower.cls.php(376) : runtime-created function on line 1
+[13-Feb-2017 17:05:35 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 745
+[13-Feb-2017 17:05:40 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 1240
+[13-Feb-2017 17:05:41 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame_decorator.cls.php on line 149
+[13-Feb-2017 17:05:42 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame.cls.php on line 0
+[13-Feb-2017 17:05:45 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame.cls.php on line 430
+[14-Feb-2017 16:14:27 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 435
+[01-Mar-2017 18:36:48 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 1526
+[08-Mar-2017 13:45:27 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/1c0a64cfcc3684685dc9e88df6ba715e on line 109
+[08-Mar-2017 13:48:22 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/1c0a64cfcc3684685dc9e88df6ba715e on line 109
+[08-Mar-2017 13:48:40 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/1c0a64cfcc3684685dc9e88df6ba715e on line 109
+[08-Mar-2017 14:22:51 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/1c0a64cfcc3684685dc9e88df6ba715e on line 134
+[08-Mar-2017 14:23:22 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/1c0a64cfcc3684685dc9e88df6ba715e on line 134
+[08-Mar-2017 19:01:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 1606
+[08-Mar-2017 19:31:17 UTC] PHP Parse error:  syntax error, unexpected '$id_au' (T_VARIABLE) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 928
+[08-Mar-2017 19:49:50 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/7879343f691f5bd9e121f0f397c9e6cb on line 47
+[09-Mar-2017 15:09:43 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/2c66a23b750e0498e5a119f89888b850 on line 32
+[13-Mar-2017 13:39:40 UTC] PHP Fatal error:  Class 'FuncionesControllers' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/d61fed0c867733cc2e44a47ff0c6fb5d on line 12
+[13-Mar-2017 13:42:01 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/d61fed0c867733cc2e44a47ff0c6fb5d on line 41
+[13-Mar-2017 13:42:04 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/d61fed0c867733cc2e44a47ff0c6fb5d on line 41
+[13-Mar-2017 13:42:12 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/d61fed0c867733cc2e44a47ff0c6fb5d on line 41
+[13-Mar-2017 13:43:14 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/d61fed0c867733cc2e44a47ff0c6fb5d on line 41
+[13-Mar-2017 13:43:18 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/d61fed0c867733cc2e44a47ff0c6fb5d on line 41
+[13-Mar-2017 13:47:35 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/d61fed0c867733cc2e44a47ff0c6fb5d on line 35
+[15-Mar-2017 14:47:59 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/2c6d6a4b90dbac26ffadce5a638ef538 on line 195
+[15-Mar-2017 14:49:06 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/2c6d6a4b90dbac26ffadce5a638ef538 on line 195
+[15-Mar-2017 14:53:38 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/2c6d6a4b90dbac26ffadce5a638ef538 on line 195
+[15-Mar-2017 14:55:09 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/8a8cde455b18bf86bb5f783e1b2912c3 on line 103
+[15-Mar-2017 14:56:38 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/2c6d6a4b90dbac26ffadce5a638ef538 on line 195
+[15-Mar-2017 15:19:25 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/2c6d6a4b90dbac26ffadce5a638ef538 on line 140
+[15-Mar-2017 15:19:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/2c6d6a4b90dbac26ffadce5a638ef538 on line 140
+[15-Mar-2017 15:23:11 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/2c6d6a4b90dbac26ffadce5a638ef538 on line 142
+[15-Mar-2017 15:27:28 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/8a8cde455b18bf86bb5f783e1b2912c3 on line 103
+[20-Mar-2017 19:28:07 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/2c66a23b750e0498e5a119f89888b850 on line 66
+[27-Mar-2017 19:43:14 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame_decorator.cls.php on line 356
+[27-Mar-2017 19:44:36 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/cellmap.cls.php on line 720
+[27-Mar-2017 19:51:16 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 736
+[27-Mar-2017 19:53:46 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/FuncionesControllers.php on line 817
+[27-Mar-2017 20:09:47 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/text_frame_decorator.cls.php on line 60
+[05-Apr-2017 15:46:46 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:46:46 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:47:10 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:47:10 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:47:16 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:47:16 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:47:23 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:47:23 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:48:42 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:48:42 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:48:49 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:48:49 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:48:58 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:48:58 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:49:48 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:49:48 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:49:50 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:49:50 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:54:26 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:54:26 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:54:53 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:54:53 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:55:11 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 15:55:11 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:28:22 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:28:22 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:28:43 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:28:43 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:28:55 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:28:55 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:28:59 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:29:02 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:29:30 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:29:30 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:29:38 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:29:38 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:43:33 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:43:33 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:43:33 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[05-Apr-2017 21:43:33 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[24-Apr-2017 13:05:06 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php): failed to open stream: No such file or directory' in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php:41
+Stack trace:
+#0 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/t...', '/home/talentsk/...', 41, Array)
+#1 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php(41): App\Providers\RouteServiceProvider::App\Providers\{closure}()
+#2 [internal function]: App\Providers\RouteServiceProvider->App\Providers\{closure}(Object(Illuminate\Routing\Router))
+#3 /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Routing/Router.php(354): call_user_func(Object(Closure), Object(Illuminate\Routing\Router))
+#4 /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php( in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[24-Apr-2017 13:05:06 UTC] PHP Fatal error:  App\Providers\RouteServiceProvider::App\Providers\{closure}(): Failed opening required '/home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/talentsk/iol.talentskey.net/encuestas/app/Providers/RouteServiceProvider.php on line 41
+[28-Apr-2017 18:48:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 175
+[29-Apr-2017 00:50:56 UTC] PHP Parse error:  syntax error, unexpected '1', expecting variable (T_VARIABLE) or quoted-string and whitespace (T_ENCAPSED_AND_WHITESPACE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 874
+[29-Apr-2017 00:54:02 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 1266
+[22-May-2017 17:28:40 UTC] PHP Fatal error:  Class 'App\Http\Controllers\FuncionesControllers' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/e26801f131e7b19be8f5dc62d18b7705 on line 40
+[24-May-2017 13:36:07 UTC] PHP Parse error:  syntax error, unexpected '$cantidad_2' (T_VARIABLE), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/2c6d6a4b90dbac26ffadce5a638ef538 on line 206
+[24-May-2017 13:36:10 UTC] PHP Parse error:  syntax error, unexpected '$cantidad_2' (T_VARIABLE), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/2c6d6a4b90dbac26ffadce5a638ef538 on line 206
+[25-May-2017 21:55:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 1679
+[30-May-2017 13:40:53 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/dompdf.cls.php on line 301
+[30-May-2017 13:43:26 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 684
+[30-May-2017 13:47:20 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 740
+[30-May-2017 13:49:32 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 1431
+[30-May-2017 13:50:10 UTC] PHP Fatal error:  Call to a member function build_tree() on null in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/dompdf.cls.php on line 700
+[30-May-2017 13:52:20 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame.cls.php on line 613
+[30-May-2017 14:00:20 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/table_cell_frame_reflower.cls.php on line 27
+[30-May-2017 14:01:25 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/page_frame_decorator.cls.php on line 0
+[30-May-2017 14:02:08 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 1239
+[30-May-2017 15:10:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 1836
+[30-May-2017 16:22:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/93dba7cee3543e33fc8a418ca99b1222 on line 273
+[30-May-2017 21:31:24 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame_decorator.cls.php on line 701
+[30-May-2017 21:32:06 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 1884
+[30-May-2017 21:32:47 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 729
+[30-May-2017 21:32:52 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 448
+[30-May-2017 21:33:09 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame.cls.php on line 149
+[30-May-2017 21:33:37 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 745
+[31-May-2017 22:36:04 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/42a31e9399a0189a7ec0771da0056e54 on line 150
+[31-May-2017 22:36:27 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/42a31e9399a0189a7ec0771da0056e54 on line 150
+[09-Jun-2017 14:41:00 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/d61fed0c867733cc2e44a47ff0c6fb5d on line 60
+[09-Jun-2017 14:41:14 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/d61fed0c867733cc2e44a47ff0c6fb5d on line 60
+[09-Jun-2017 14:42:29 UTC] PHP Parse error:  syntax error, unexpected ''+tog+'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/1c0a64cfcc3684685dc9e88df6ba715e on line 257
+[09-Jun-2017 14:43:23 UTC] PHP Parse error:  syntax error, unexpected ''+tog+'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/1c0a64cfcc3684685dc9e88df6ba715e on line 257
+[09-Jun-2017 14:43:38 UTC] PHP Parse error:  syntax error, unexpected ''+tog+'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/1c0a64cfcc3684685dc9e88df6ba715e on line 257
+[16-Jun-2017 17:28:55 UTC] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 2470
+[16-Jun-2017 22:09:15 UTC] PHP Warning:  Unterminated comment starting line 386 in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 386
+[16-Jun-2017 22:09:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 386
+[16-Jun-2017 22:11:06 UTC] PHP Warning:  Unterminated comment starting line 2440 in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 2440
+[16-Jun-2017 22:11:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 2451
+[16-Jun-2017 22:11:10 UTC] PHP Warning:  Unterminated comment starting line 2440 in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 2440
+[16-Jun-2017 22:11:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 2451
+[16-Jun-2017 22:14:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 1204
+[20-Jun-2017 16:51:17 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/42a31e9399a0189a7ec0771da0056e54 on line 170
+[20-Jun-2017 16:52:41 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/42a31e9399a0189a7ec0771da0056e54 on line 192
+[20-Jun-2017 16:52:55 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/42a31e9399a0189a7ec0771da0056e54 on line 200
+[21-Jun-2017 17:25:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 2893
+[27-Jun-2017 15:26:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/012672272b227365888c7c3723c74acc on line 195
+[29-Jun-2017 19:33:06 UTC] PHP Fatal error:  Class 'App\Http\Controllers\FuncionesControllers' not found in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/PruebasControllers.php on line 306
+[30-Jun-2017 15:09:01 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/FuncionesControllers.php on line 1121
+[30-Jun-2017 16:46:07 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/FuncionesControllers.php on line 1204
+[02-Jul-2017 11:59:05 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/6c9950baa77de4bd202433588d08a1da on line 94
+[08-Jul-2017 16:26:15 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ']' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 379
+[08-Jul-2017 16:55:33 UTC] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php:535) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/960d1a034e27f3a6ceb1ba3a07ff6e06 on line 7
+[08-Jul-2017 16:56:05 UTC] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php:535) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/960d1a034e27f3a6ceb1ba3a07ff6e06 on line 7
+[08-Jul-2017 16:57:13 UTC] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php:535) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/960d1a034e27f3a6ceb1ba3a07ff6e06 on line 3
+[10-Jul-2017 11:56:41 UTC] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php:535) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/960d1a034e27f3a6ceb1ba3a07ff6e06 on line 3
+[10-Jul-2017 19:16:20 UTC] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php:535) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/960d1a034e27f3a6ceb1ba3a07ff6e06 on line 3
+[12-Jul-2017 13:28:20 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 1025
+[12-Jul-2017 13:29:04 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:30:05 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:30:45 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:30:57 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:32:23 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:32:33 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:32:41 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:32:54 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:39:52 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:39:55 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:40:03 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:40:09 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:41:10 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:41:13 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:41:16 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:41:16 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:41:33 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:41:53 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:45:03 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:45:07 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 13:47:36 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:06:13 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:11:27 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:16:27 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:16:31 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:16:44 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:16:45 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:16:45 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:17:22 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:17:37 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:17:37 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:19:45 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:19:48 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:20:09 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:20:19 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:20:20 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:20:25 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:20:28 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:20:29 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:20:29 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:25:09 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:25:13 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:32:16 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 14:32:21 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 21:30:43 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[12-Jul-2017 21:30:58 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 07:42:43 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 12:34:24 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 12:34:33 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:10:16 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:10:35 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:10:57 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:11:05 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:11:08 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:11:09 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:04 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:10 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:13 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:13 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:40 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:44 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:45 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:45 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:49 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:51 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:51 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:57 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:58 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:12:58 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:13:02 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:13:03 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:13:04 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:13:46 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:17:27 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:17:38 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 14:22:14 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 15:02:37 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 15:02:38 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 19:26:06 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[13-Jul-2017 19:26:19 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[14-Jul-2017 00:48:38 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[14-Jul-2017 20:39:38 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[15-Jul-2017 16:33:57 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 12:24:54 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 12:36:58 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 14:22:19 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 16:14:00 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 17:12:18 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 18:39:42 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:19:05 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:19:35 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:20:06 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:21:38 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:21:49 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:21:56 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:24:58 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:25:17 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:25:41 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:25:57 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:33:26 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:33:28 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:33:29 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:33:40 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:36:32 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:36:51 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:36:54 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 19:37:16 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:37:28 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:44:13 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:45:23 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:45:31 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:45:40 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:45:55 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:46:08 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:46:16 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:46:19 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:46:45 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:46:46 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:46:47 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:53:38 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:53:41 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:53:45 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:54:33 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:57:23 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 20:57:40 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[17-Jul-2017 21:02:49 UTC] PHP Warning:  The use statement with non-compound name 'Mail' has no effect in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 7
+[24-Jul-2017 10:56:31 UTC] PHP Warning:  Unterminated comment starting line 3050 in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 3050
+[24-Jul-2017 10:56:31 UTC] PHP Parse error:  syntax error, unexpected 'black' (T_STRING) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 3073
+[17-Aug-2017 10:17:16 UTC] PHP Parse error:  syntax error, unexpected 'strpos' (T_STRING) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/93dba7cee3543e33fc8a418ca99b1222 on line 31
+[17-Aug-2017 10:17:28 UTC] PHP Parse error:  syntax error, unexpected 'strpos' (T_STRING) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/93dba7cee3543e33fc8a418ca99b1222 on line 31
+[20-Aug-2017 23:12:29 UTC] PHP Parse error:  syntax error, unexpected '$tabindex' (T_VARIABLE), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/1c0f3b827c15f9fe597639442fd26ad2 on line 183
+[20-Aug-2017 23:12:44 UTC] PHP Parse error:  syntax error, unexpected '$tabindex' (T_VARIABLE), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/1c0f3b827c15f9fe597639442fd26ad2 on line 183
+[31-Aug-2017 22:45:57 UTC] PHP Parse error:  syntax error, unexpected '.', expecting variable (T_VARIABLE) or '$' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/b9610d2a05821742aff41fdbae719cd7 on line 194
+[02-Sep-2017 23:08:59 UTC] PHP Fatal error:  Class 'App\Http\Controllers\URL' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/f08927dcbd010a5d9e3ca65e4f00e804 on line 20
+[02-Sep-2017 23:09:07 UTC] PHP Fatal error:  Class 'App\Http\Controllers\URL' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/f08927dcbd010a5d9e3ca65e4f00e804 on line 20
+[04-Sep-2017 21:20:57 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/f08927dcbd010a5d9e3ca65e4f00e804 on line 277
+[08-Sep-2017 16:48:37 UTC] PHP Parse error:  syntax error, unexpected 'position' (T_STRING) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/FuncionesControllers.php on line 955
+[08-Sep-2017 16:49:12 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/FuncionesControllers.php on line 956
+[09-Sep-2017 15:51:02 UTC] PHP Parse error:  syntax error, unexpected ''uses'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 582
+[09-Sep-2017 16:30:11 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 767
+[09-Sep-2017 16:43:25 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 742
+[09-Sep-2017 16:45:42 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/routes.php on line 742
+[20-Sep-2017 15:29:41 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/59c7437c5ce71d74662334ff514d1de1 on line 164
+[21-Sep-2017 20:47:09 UTC] PHP Parse error:  syntax error, unexpected 'Arial' (T_STRING), expecting ']' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/5255b9a9b5fb204be0edbcabc3613a4e on line 78
+[21-Sep-2017 20:50:19 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/5255b9a9b5fb204be0edbcabc3613a4e on line 177
+[22-Sep-2017 15:27:38 UTC] PHP Fatal error:  Cannot use [] for reading in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/43c5685ff019962ae269ab014e3f58ff on line 170
+[22-Sep-2017 15:27:48 UTC] PHP Fatal error:  Cannot use [] for reading in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/43c5685ff019962ae269ab014e3f58ff on line 170
+[22-Sep-2017 15:28:00 UTC] PHP Fatal error:  Cannot use [] for reading in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/43c5685ff019962ae269ab014e3f58ff on line 170
+[22-Sep-2017 16:01:10 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame.cls.php on line 452
+[22-Sep-2017 16:02:13 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/text_frame_reflower.cls.php on line 376
+[22-Sep-2017 16:02:16 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 725
+[22-Sep-2017 16:03:43 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 895
+[22-Sep-2017 16:05:40 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 445
+[22-Sep-2017 16:06:28 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 1881
+[22-Sep-2017 16:08:35 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame.cls.php on line 321
+[22-Sep-2017 16:13:24 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame_decorator.cls.php on line 393
+[22-Sep-2017 16:18:36 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame_decorator.cls.php on line 0
+[22-Sep-2017 16:21:28 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 693
+[22-Sep-2017 16:23:53 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/frame_decorator.cls.php on line 357
+[02-Oct-2017 17:54:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/text_frame_reflower.cls.php on line 376
+[02-Oct-2017 23:35:59 UTC] PHP Parse error:  syntax error, unexpected '||' (T_BOOLEAN_OR) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/86cd6d73a0a9951d2420f7fba03dd72b on line 120
+[02-Oct-2017 23:36:18 UTC] PHP Parse error:  syntax error, unexpected '||' (T_BOOLEAN_OR) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/86cd6d73a0a9951d2420f7fba03dd72b on line 120
+[02-Oct-2017 23:36:21 UTC] PHP Parse error:  syntax error, unexpected '||' (T_BOOLEAN_OR) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/86cd6d73a0a9951d2420f7fba03dd72b on line 120
+[02-Oct-2017 23:36:39 UTC] PHP Parse error:  syntax error, unexpected '||' (T_BOOLEAN_OR) in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/86cd6d73a0a9951d2420f7fba03dd72b on line 120
+[02-Oct-2017 23:40:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/style.cls.php on line 740
+[02-Oct-2017 23:48:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/dompdf/dompdf/include/page_frame_decorator.cls.php on line 426
+[12-Oct-2017 15:19:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/86cd6d73a0a9951d2420f7fba03dd72b on line 161
+[12-Oct-2017 15:20:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 319
+[12-Oct-2017 15:40:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/talentsk/iol.talentskey.net/encuestas/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 319
+[12-Oct-2017 15:49:57 UTC] PHP Fatal error:  Class 'App\Http\Controllers\URL' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/86cd6d73a0a9951d2420f7fba03dd72b on line 21
+[12-Oct-2017 15:50:50 UTC] PHP Fatal error:  Class 'App\Http\Controllers\URL' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/86cd6d73a0a9951d2420f7fba03dd72b on line 21
+[12-Oct-2017 15:51:49 UTC] PHP Fatal error:  Class 'App\Http\Controllers\URL' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/86cd6d73a0a9951d2420f7fba03dd72b on line 21
+[12-Oct-2017 23:25:23 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 1462
+[17-Oct-2017 14:46:30 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 3663
+[17-Oct-2017 14:47:11 UTC] PHP Fatal error:  Class 'App\Http\Controllers\EncuestasControllers' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/fefe2566cc7b3df90b58b9f8f324f5ed on line 197
+[17-Oct-2017 14:47:52 UTC] PHP Fatal error:  Class 'App\Http\Controllers\EncuestasControllers' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/fefe2566cc7b3df90b58b9f8f324f5ed on line 198
+[17-Oct-2017 14:47:59 UTC] PHP Fatal error:  Class 'App\Http\Controllers\EncuestasControllers' not found in /home/talentsk/iol.talentskey.net/encuestas/storage/framework/views/fefe2566cc7b3df90b58b9f8f324f5ed on line 198
+[19-Oct-2017 14:49:18 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ',' or ';' in /home/talentsk/iol.talentskey.net/encuestas/app/Http/Controllers/EncuestaControllers.php on line 990

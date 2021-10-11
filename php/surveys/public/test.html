@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<!-- jQuery -->
+		<script src="bp/bower_components/jquery/dist/jquery.min.js"></script>	
+		<script>
+		$(document).ready(function () {
+			$("#b1").click(function() {	
+				$("#texto1").focus();
+			 });
+			 
+			$("#b2").click(function() {			
+				$("#texto2").focus();
+			 });
+		});
+		</script>		
+	</head>
+	<body>
+		texto 1:<input type="text" name="texto1" id="texto1" value="" />
+		<br />
+		texto 12:<input type="text" name="texto2" id="texto2" value="" />
+		<br />
+		<input type="button" value="presione 1" id="b1" />
+		<input type="button" value="Presione 2" id="b2" />
+	</body>
+</html>

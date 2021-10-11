@@ -1,0 +1,1 @@
+[20-Aug-2017 14:37:37 UTC] PHP Fatal error:  Class 'Illuminate\Routing\Controller' not found in /home/talentsk/iol.talentskey.net/encuestas/resources/EncuestaControllers.php on line 27

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* FOOTER */
+#footer{ float:left; height:100px; width:1100px; margin:50px 0px 20px 0px; }
+
+#linea { float:left; width:1100px; height:5px;}
+
+#footer_cont { float:left; width:1040px; margin:20px 30px; }
+
+#logo_mth { float:left; width:720px; text-align:left;}
+
+#footer_txt { float:left; width:320px; text-align:right; margin-top:25px; }
+
+.footer_txt { font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#444; }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/create-react-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gaia-react-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/querybuilder/ej2-react-ui-components" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react-querybuilder" vcs="Git" />
+  </component>
+</project>

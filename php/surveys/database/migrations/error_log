@@ -1,0 +1,3 @@
+[17-Feb-2017 21:25:17 UTC] PHP Fatal error:  Class 'Illuminate\Database\Migrations\Migration' not found in /home/talentsk/iol.talentskey.net/encuestas/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[23-May-2017 01:15:45 UTC] PHP Fatal error:  Class 'Illuminate\Database\Migrations\Migration' not found in /home/talentsk/iol.talentskey.net/encuestas/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[23-May-2017 10:15:30 UTC] PHP Fatal error:  Class 'Illuminate\Database\Migrations\Migration' not found in /home/talentsk/iol.talentskey.net/encuestas/database/migrations/2014_10_12_000000_create_users_table.php on line 7

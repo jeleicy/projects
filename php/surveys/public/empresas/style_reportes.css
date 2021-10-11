@@ -1,0 +1,114 @@
+body, div, table, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #4A4A4A;
+    font-size: 14px;
+    font-weight: normal;
+    text-align:left; 
+}
+#content { 
+    width: 800px;
+    margin: 0 auto;}
+	
+/* CABECERA */
+#header{ margin: 0 0 20px 0; width:800px;
+	 }
+
+#logo { float:left; width:570px; margin-right:10px; }
+
+#titulo { 
+    width: 600px;
+	float:left;
+    margin:60px 0 20px 10px; 
+	}
+	
+.titulo {
+    color: #0060A8; 
+    font-size: 18px;
+    font-weight: bold; 
+    text-align:left; 
+    letter-spacing:1px; }
+
+#borde {
+	width: 800px;
+	border-bottom: 1px solid #B4B4B4;
+	padding-top:90px;
+	
+}
+
+/* CONTENIDO */
+#fecha { float:left; width:140px; margin-right:10px; }
+
+#texto { 
+    width: 630px;
+	float:left;
+    margin:0px 0 20px 10px; 
+	}
+	
+.texto {
+    line-height: 22px;
+    font-size: 16px;
+	 }
+	
+/* TABLA */
+table {	
+    overflow: hidden;
+    width: 800px;
+    margin: 3% auto;
+	border: 1px solid #FFF;
+	border-collapse:collapse;
+	border-radius:8px; 
+}
+
+th, td {
+	padding-top:7px; 
+	padding-left:10px; 
+	height:23px; 
+	}
+	
+th {
+	color: #FFFFFF;
+	background:#E04000; 
+	border: 1px solid #FFF;
+	border-collapse:collapse;
+    font-weight: normal;}
+	
+td {
+	border: 1px solid #FFF;  
+	border-collapse:collapse; 
+	background: #F3F3F3; }
+
+#indice{
+    font-size: 16px;
+	padding-top:7px; 
+	padding-left:10px; 
+	height:40px; 
+	}
+
+#indice_1{ 
+    font-size: 16px;
+	padding-top:7px; 
+	padding-left:10px; 
+	height:40px; 
+	background:#000000;
+	border-radius:8px;}
+	
+#ind_excelente { background: #007754; color:#000; }
+#ind_superior { background: #7DD439;  color:#000; }
+#ind_promedio { background: #FFB2009; color:#000; }
+#ind_inferior { background: #FFA2E2; color:#000; }
+#ind_deficiente { background: #D90000; color:#000; }
+
+
+#footer{  width:300px; margin:0px 0 30px 10px; color:#000000;
+font-size: 12px;
+font-weight: normal;}

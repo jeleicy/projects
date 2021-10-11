@@ -1,0 +1,4 @@
+[02-Feb-2017 07:07:23 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Application' not found in /home/talentsk/iol.talentskey.net/encuestas/bootstrap/app.php on line 14
+[16-May-2017 14:18:26 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Application' not found in /home/talentsk/iol.talentskey.net/encuestas/bootstrap/app.php on line 14
+[17-Jun-2017 13:28:55 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Application' not found in /home/talentsk/iol.talentskey.net/encuestas/bootstrap/app.php on line 14
+[26-Aug-2017 08:15:00 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Application' not found in /home/talentsk/iol.talentskey.net/encuestas/bootstrap/app.php on line 14

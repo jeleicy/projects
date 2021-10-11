@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cumac\.ceertif.ornsoft\.dev [NC]
+RewriteRule ^(.*)$ http://cumac.ceertia.ornsoft.dev:8084/$1 [R=301]

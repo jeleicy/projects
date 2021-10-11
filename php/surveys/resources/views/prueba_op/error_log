@@ -1,0 +1,4 @@
+[24-Feb-2017 10:03:32 UTC] PHP Fatal error:  Class 'DB' not found in /home/talentsk/iol.talentskey.net/encuestas/resources/views/prueba_op/encuesta_5.blade.php on line 32
+[24-Feb-2017 10:04:34 UTC] PHP Fatal error:  Class 'DB' not found in /home/talentsk/iol.talentskey.net/encuestas/resources/views/prueba_op/preguntas_5_3.blade.php on line 16
+[24-Feb-2017 10:04:56 UTC] PHP Fatal error:  Class 'DB' not found in /home/talentsk/iol.talentskey.net/encuestas/resources/views/prueba_op/preguntas_5_1.blade.php on line 23
+[24-Feb-2017 10:06:00 UTC] PHP Fatal error:  Class 'DB' not found in /home/talentsk/iol.talentskey.net/encuestas/resources/views/prueba_op/preguntas_5_2.blade.php on line 13
