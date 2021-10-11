@@ -1,0 +1,78 @@
+<?php namespace App\Http\Controllers;
+
+use App\Http\Controllers\FuncionesControllers;
+use Session;
+use DB;
+use View;
+use Illuminate\Support\Facades\URL;
+
+?>
+
+<!-----------------------HEADER---------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Red de Observacion</title>
+
+    <!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="<?php echo e(URL::asset('bower_components/bootstrap/dist/css/bootstrap.min.css')); ?>">
+
+    <!-- MetisMenu CSS -->
+	<link rel="stylesheet" href="<?php echo e(URL::asset('bower_components/metisMenu/dist/metisMenu.min.css')); ?>">
+
+    <!-- Timeline CSS -->
+	<link rel="stylesheet" href="<?php echo e(URL::asset('dist/css/timeline.css')); ?>">
+
+    <!-- Custom CSS -->
+	<link rel="stylesheet" href="<?php echo e(URL::asset('dist/css/sb-admin-2.css')); ?>">
+
+    <!-- Morris Charts CSS -->
+	<link rel="stylesheet" href="<?php echo e(URL::asset('bower_components/morrisjs/morris.css')); ?>">
+
+    <!-- Custom Fonts -->
+	<link rel="stylesheet" href="<?php echo e(URL::asset('bower_components/font-awesome/css/font-awesome.min.css')); ?>">
+	
+	<link rel="stylesheet" href="<?php echo e(URL::asset('css/estilos.css')); ?>">
+	
+	<script type="text/javascript" src="<?php echo e(URL::asset('js/ajax.js')); ?>"></script>
+	<script type="text/javascript" src="<?php echo e(URL::asset('js/funciones.js')); ?>"></script>
+	
+	<!--link href="css/scwdemo.css" rel="stylesheet" type="text/css">
+	<link type="text/css" rel="stylesheet" href="css/lightbox.css">
+	<link type="text/css" rel="stylesheet" href="css/estilos.css"-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="<?php echo e(URL::asset('dashboardindex')); ?>">Observadores de Venezuela - <?php echo e(Session::get("nombres")); ?> <?php echo e(Session::get("apellidos")); ?> (<?php echo e(FuncionesControllers::buscar_privilegio(SessionusuarioControllers::show("privilegio"))); ?>)</a>
+            </div>
+            <!-- /.navbar-header -->
+
+		<?php echo $__env->make('dashboard.menusuperior', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			
+		<?php echo $__env->make('dashboard.menuizquierdo', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+        </nav>

@@ -1,0 +1,138 @@
+<?php namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
+use DB;
+use Session;
+use View;
+use Auth;
+use App\Http\Controllers\FuncionesControllers;
+
+/*	session_start();
+	
+	include_once ("conexion.php");
+	include_once ("funciones.php");
+
+	$id_operador=isset($_REQUEST["id_operador"]) ? $_REQUEST["id_operador"] : "";
+	$cedula=isset($_REQUEST["cedula"]) ? $_REQUEST["cedula"] : "";
+	$nombres=isset($_REQUEST["nombres"]) ? $_REQUEST["nombres"] : "";
+	$apellidos=isset($_REQUEST["apellidos"]) ? $_REQUEST["apellidos"] : "";
+	$estado=isset($_REQUEST["estado"]) ? $_REQUEST["estado"] : "";
+	$municipio=isset($_REQUEST["municipio"]) ? $_REQUEST["municipio"] : "";
+	$parroquia=isset($_REQUEST["parroquia"]) ? $_REQUEST["parroquia"] : "";
+	$cod_centro=isset($_REQUEST["cod_centro"]) ? $_REQUEST["cod_centro"] : "";
+	$cod_operador=isset($_REQUEST["cod_operador"]) ? $_REQUEST["cod_operador"] : "";
+	*/
+	$operador = FuncionesControllers::buscar_operador($id_operador);
+?>
+<br /><br />
+<div align="center">Listado de Operador: <strong><?php echo $operador; ?></strong></div>
+<br /><br /><br />
+<table width="100%" border="0" cellspacing="2" cellpadding="10" class="tablas_int" align="center">
+  <tr class="fondo3">
+	<td>&nbsp;</td>
+	<td>&nbsp;</td>
+	<td>C&eacute;dula</td>
+	<td>Estado</td>	
+	<td>Nombre</td>	
+	<td>Tlf Cel</td>
+	<td>Tlf Hab</td>
+	<td>Tlf Otro</td>
+	<td>Email</td>
+	<td>Centro</td>
+	<td>Operador Asignado</td>
+  </tr>
+	<?php
+	
+		$sql = "select distinct(c.codigo) as codigo, o.id_observador, o.*, c.nombre as centro, c.codigo, ";
+		$sql .= "e.nombre as estado ";
+		$sql .= "from observador o , asignacion a, centro c, estado e ";
+		
+		if ($cod_operador>0)
+			$sql .= ", asignacion_operador ao ";
+			
+		$sql .= "where a.id_observador=o.id_observador and c.id_centro=a.id_centro and ";
+		
+		if ($cedula!="")
+			$sql .= "o.nac='$nac' and cedula='$cedula' and ";
+			
+		if ($nombres!="")
+			$sql .= "o.nombres like '".strtoupper($nombres)."%' and ";
+	
+		if ($apellidos!="")
+			$sql .= "o.apellidos like '".strtoupper($apellidos)."%' and ";
+			
+		if ($estado!=0)
+			$sql .= "c.estado = $estado and ";
+			
+		if ($municipio!=0)
+			$sql .= "c.municipio = $municipio and ";
+			
+		if ($parroquia!=0)
+			$sql .= "c.parroquia = $parroquia and ";
+		
+		if ($cod_centro!=0)
+			$sql .= "a.id_centro = $cod_centro and ";
+			
+		if ($cod_operador>0)
+			$sql .= "ao.id_operador=$cod_operador and ao.id_observador=o.id_observador and ";
+			
+		$sql .= "e.id_estado=o.id_estado ";
+
+		$sql .= " order by o.apellidos, o.nombres";
+		
+		$result = ejecutaQuery($sql);
+		$i=1;
+		$j=1;
+		while ($data = mysql_fetch_array($result)) {
+			if ($i==1) $i=2;
+			else $i=1;
+			
+			$nac = $data["nac"];
+			$cedula = $data["cedula"];
+			$nombres = $data["nombres"];
+			$apellidos = $data["apellidos"];
+			$email = $data["email"];
+			$id_observador = $data["id_observador"];
+			$tlfcel = $data["tlfcel"];
+			$tlfhab = $data["tlfhab"];
+			$tlfotro = $data["tlfotro"];
+			$autorizado = $data["autorizado"];
+			$privilegio = $data["privilegio"];
+			$fecha_ing = $data["fecha_ing"];
+			$centro = $data["centro"];
+			$codigo = $data["codigo"];
+			$id_operador = $data["id_operador"];
+			$estado = $data["estado"];
+		?>
+		  <tr class="fondo<?php echo $i; ?>">
+			<td align="center"><?php echo $j; ?></td>
+			<td align="center"><input class='chk' type="checkbox" name="chk_<?php echo $id_observador; ?>"></td>
+			<td><?php echo $nac."-".number_format($cedula,0,"","."); ?></td>
+			<td><?php echo $estado; ?></td>
+			<td><?php echo $apellidos." ".$nombres; ?></td>
+			<td><?php echo $tlfcel; ?></td>
+			<td><?php echo $tlfhab; ?></td>
+			<td><?php echo $tlfotro; ?></td>
+			<td><?php echo $email; ?></td>
+			<td><?php echo $centro." (".$codigo.")"; ?></td>
+			<?php
+				if ($cod_operador==0) {
+					$sql = "select id_operador from asignacion_operador where id_observador=$id_observador";
+					$result2 = ejecutaQuery($sql);
+					$data2 = mysql_fetch_array($result2);
+					if ($data2["id_operador"])
+						$cod_operador=$data2["id_operador"];
+					else
+						$cod_operador=0;
+				}
+			?>			
+			<td><?php echo buscar_operador($cod_operador); ?></td>
+		  </tr>		
+		<?php
+			$j++;
+		}
+	?>
+</table>
+<br />
+<div align="center"><input class="btn" type="button" name="Imprimir" value="Imprimir Listado" onclick="window.print()" /></div>

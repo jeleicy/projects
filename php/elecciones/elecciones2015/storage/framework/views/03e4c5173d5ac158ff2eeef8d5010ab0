@@ -1,0 +1,21 @@
+<?php echo $__env->make('layaout.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+<?php
+	if (Session::get('mensaje')!="")
+		echo "<script>alert('".Session::get('mensaje')."');</script>";
+?>
+
+<div class="col-lg-4 col-lg-offset-4 mt centered">
+	<h4>Ingresar al Sistema</h4>
+	<form class="form-inline" method="get" action="logueo" role="form">
+	  <div class="form-group">
+		<label class="sr-only" for="exampleInputEmail2">Email address</label>
+		<input type="email" class="form-control" id="email" name="email" placeholder="Ingrese email">
+		<input type="password" class="form-control" id="pass" name="pass" placeholder="Ingrese contraseña">
+	  </div>
+	  <br /><br />
+	  <button type="button" class="btn btn-info" onclick="validar_autenticacion(this.form)">Ingresar</button>
+	</form>
+</div>
+
+<?php echo $__env->make('layaout.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
